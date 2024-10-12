@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "publication": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "number"
+    }
+  },
+  "required": ["id", "name", "author", "publication", "category", "pages", "price"]
+}
