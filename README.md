@@ -1,4 +1,4 @@
-Books API Test Framework
+# Books API Test Framework
 
 Application under test: Book API (http://77.102.250.113:17354/api/v1/books/)
 
@@ -10,7 +10,7 @@ The framework contains four test scenarios covering a CRUD actions flow:
 5. Delete a book
 
 Use the following command to run the test in console:
-mvn clean test -Dcucumber.options="--tags @@VerifyCrudActionsgit --v"
+`mvn clean test -Dcucumber.options="--tags @@VerifyCrudActionsgit --v"`
 
 Tools used:
 - Java 11
