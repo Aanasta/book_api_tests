@@ -10,7 +10,7 @@ The framework contains four test scenarios covering a CRUD actions flow:
 5. Delete a book
 
 Use the following command to run the test in console:
-`mvn clean test -Dcucumber.options="--tags @@VerifyCrudActionsgit --v"`
+`mvn clean test -Dcucumber.options="--tags @VerifyCrudActions" `
 
 Tools used:
 - Java 11
